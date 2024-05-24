@@ -6,9 +6,9 @@ on:
     - main
 
 env:
-  UNIQUE_APP_NAME: net7cart
-  AZURE_RESOURCE_GROUP_NAME: orleanscartrg
-  AZURE_RESOURCE_GROUP_LOCATION: westus
+  UNIQUE_APP_NAME: orleanscartapp
+  AZURE_RESOURCE_GROUP_NAME: orleans-dev-rg
+  AZURE_RESOURCE_GROUP_LOCATION: northeurope
 
 jobs:
   build-and-deploy:
