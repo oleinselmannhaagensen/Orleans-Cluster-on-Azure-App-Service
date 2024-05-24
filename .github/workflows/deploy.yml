@@ -6,7 +6,7 @@ on:
     - main
 
 env:
-  UNIQUE_APP_NAME: orleanscartapp
+  UNIQUE_APP_NAME: orleansapp
   AZURE_RESOURCE_GROUP_NAME: orleans-dev-rg
   AZURE_RESOURCE_GROUP_LOCATION: northeurope
 
