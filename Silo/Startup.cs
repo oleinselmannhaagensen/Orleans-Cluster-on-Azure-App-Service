@@ -42,5 +42,7 @@ public sealed class Startup
             endpoints.MapBlazorHub();
             endpoints.MapFallbackToPage("/_Host");
         });
+
+        app.Map("/dashboard", x => x.UseOrleansDashboard());
     }
 }

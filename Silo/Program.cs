@@ -8,7 +8,7 @@ await Host.CreateDefaultBuilder(args)
             builder.UseLocalhostClustering()
                 .AddMemoryGrainStorage("shopping-cart")
                 .AddStartupTask<SeedProductStoreTask>()
-                .UseDashboard();
+                .UseDashboard(x => x.HostSelf = true);
 
             //if (context.HostingEnvironment.IsDevelopment())
             //{
